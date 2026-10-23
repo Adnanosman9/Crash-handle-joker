@@ -36,7 +36,4 @@ A python script that controls Python's default error handler (`sys.excepthook`).
 
 
 
-## Behind the Build & Logic
-I used `sys.excepthook` to override the standard system traceback prints. When Python hits an unhandled exception, it diverts the data nodes straight to my `excuse()` module. The generator picks a random enterprise buzzword, calls `pyjokes` to grab a random line, and draws a name and company from `Faker` before packaging the string payload inside the `cowsay.cow` text canvas buffer.
-
 License: MIT
