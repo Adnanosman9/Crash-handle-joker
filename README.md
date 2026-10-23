@@ -1,4 +1,4 @@
-# python-crash-excuse
+# Joke with crash
 
 A python script that controls Python's default error handler (`sys.excepthook`). Whenever any Python script on your computer crashes, it intercept the error message and prints a cowsay drawing giving a randomized developer excuse combined with a programming joke.
 
