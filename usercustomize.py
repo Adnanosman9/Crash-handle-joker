@@ -13,8 +13,8 @@ def excuse():
     joke = pyjokes.get_joke()
 
     templates = [
-        f"Listeen, {fake.name()}... {buzzword} at {fake.company()} imploded bcz of {joke}",
-        f"Critical failure! {buzzword} is down. As the prophecy warns {joke}",
+        f"Listeen, servers are imploded bcz of {joke}",
+        f"Critical failure! {buzzword} is down. because {joke}",
         f"Sorry boss!!!! {fake.company()} servers are burned. all I can say is: {joke}"
     ]
 
